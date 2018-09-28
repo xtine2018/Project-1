@@ -1,6 +1,43 @@
 .header {
-    /* font-family: ; */
-    color: rgb(150, 145, 131);
-    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(181, 177, 177);
+    font-size: 60px;
     text-align: center;
+    padding: 10px 0px 20px 0px;
+    border-bottom: 2px solid rgb(245, 243, 243);
+    position: sticky;
+}
+
+.navBar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 0px 20px 0px;
+    text-decoration: none;
+    font-size: 15px;
+    text-decoration-color: black;
+}
+a, a:link, a:visited, a:active {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: rgb(181, 177, 177);
+}
+
+.mainContainer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 0px 25px 0px;
+    background-color: rgb(245, 243, 243);
+    text-align: center;
+}
+
+.footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+    text-decoration-color: rgb(181, 177, 177);
+    text-decoration: none;
 }
