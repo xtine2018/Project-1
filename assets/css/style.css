@@ -22,6 +22,7 @@ align-content: center;
 .col-md-6 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 100px;
+    text-align: justify;
 }
 
 .sidenav {
