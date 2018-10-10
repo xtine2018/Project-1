@@ -16,27 +16,12 @@
     text-align: left;
     position: sticky;
 }
-
-/* Navigation Bar */
-header {
-    text-align: left;
+.col-md-5 {
+align-content: center;
 }
-
-/* p {
-    color: black;
-    text-align: left;
-    font-size: 16px;
-    padding-left: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: -100px;
-} */
-.text2 {
-    font-size: 18px;
-    margin: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: -250px;
-    color: white;
-    width: 95%;
+.col-md-6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 100px;
 }
 
 .sidenav {
@@ -53,13 +38,11 @@ header {
 }
 
 a, a:link, a:visited, a:active {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     color: black;
 }
 
 a:hover {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     color: orangered;
 }
@@ -77,7 +60,7 @@ a:hover {
 .footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    font-size: 20px;
+    font-size: 10px;
 }
 
 /* Contact Page */
@@ -87,18 +70,6 @@ h2 {
     font-size: 50px;
     text-align: center;
 }
-.card {
-    background-color: white;
-    margin: 0px 20px 0px 20px;
-    padding: 0px 20px 0px 20px;
-    /* padding-bottom: 120px; */
-    width: 90%;
-    /* background: url("/Users/cnyokoyama/Documents/UCLA/Homework/Project-1/assets/images/marco.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    color: white; */
-}
-
 
 .img-profile {
     height: auto;
@@ -112,7 +83,7 @@ h2 {
 }
 
 .text {
-    font-size: 10px;
+    font-size: 15px;
     color: black;
 }
 
