@@ -1,11 +1,7 @@
 /* Fonts */
 @font-face {
     font-family: "BebasNeue";
-    src: url('../fonts/BebasNeue-webfont.eot');
-    src: url('../fonts/BebasNeue-webfont.ttf');
-    src: url('../fonts/BebasNeue-webfont.woff');
-    src: local("BebasNeue"), url('../fonts/BebasNeue-webfont.ttf');
-    src: url('/Users/cnyokoyama/Documents/UCLA/Homework/Project-1/assets/images/BebasNeue-Regular.ttf');
+    src: url('assets/images/BebasNeue-Regular.ttf');
 }
 
 /* Header */
