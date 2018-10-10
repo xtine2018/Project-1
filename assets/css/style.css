@@ -36,13 +36,13 @@ p {
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
-    left: 0;
+    right: 0;
     background-color: white; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
-    text-align: right;
+    text-align: center;
 }
 
 a, a:link, a:visited, a:active {
