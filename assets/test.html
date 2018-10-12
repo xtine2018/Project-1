@@ -1,0 +1,37 @@
+<html>
+ <head></head>
+ <body>
+   <div class="noticia">CARGANDO</div>
+   <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+   <script>
+     $(function(){
+       var url = 'https://www.domain.co/index.xml';
+       var news = $('.noticia');
+       function dateFormat(pubDate) {
+         var date = new Date(pubDate);
+         var months = Array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+         return date.getDate() + " " + months[date.getMonth()] + " " + date.getFullYear()
+       }
+       function loadNews(url) {
+         $.ajax({
+           url: url,
+           type: 'GET',
+           dataType: "xml"
+         })
+         .done(function(xml) {
+           var self = $(xml).find('channel item').first();
+           var url = $(self).find('link').text();
+           var title = $(self).find('title').text();
+           var text = $(self).find('description').text();
+           var date = $(self).find('pubDate').text();
+           news.html('<h2>' + title + '</h2><p>' + dateFormat(date) + '</p><p>' + text + '</p><a href="' + url + '">Link</a>');
+         })
+         .fail(function(){
+           news.hide();
+         });
+       }
+       loadNews(url);
+     });
+   </script>
+ </body>
+</html>

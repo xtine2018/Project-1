@@ -17,9 +17,10 @@
     position: sticky;
 }
 .col {
-    align-content: center;
+    /* align-content: center; */
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -260px;
 }
 .sidenav {
     height: 100%;
@@ -137,4 +138,18 @@ h2 {
 
 span {
     color: orangered;
+}
+
+/* angelo's addition */
+img {
+    position: absolute;
+    object-fit: cover;
+    width: 222px;
+    height: 600px;
+    padding: 10px;
+
+}
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
 }
