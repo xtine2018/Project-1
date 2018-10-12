@@ -4,21 +4,26 @@
     src: url('../images/BebasNeue-Regular.ttf');
 }
 
-body {
-    font-family: BebasNeue;
-    font-size: 28px;
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 .container::after {
   content: "";
-  background: url('/Users/cnyokoyama/Documents/UCLA/Homework/Project-1/assets/images/marco.png');
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+  background: url('/Users/cnyokoyama/Documents/UCLA/Homework/Project-1/assets/images/marco bw.png');
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position-y: -200px;
+  background-position-x: 248px;
+  opacity: 0.3;
+  top: 140px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
   position: absolute;
-  z-index: -1;   
+  z-index: -1;  
+  object-fit: cover;
 }
 /* Header */
 .header {
