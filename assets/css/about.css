@@ -14,13 +14,13 @@
   content: "";
   background: url('../images/marco bw.png');
   background-repeat: no-repeat;
-  background-size: 70%;
+  background-size: 100%;
   background-position-y: -200px;
-  background-position-x: 248px;
+  background-position-x: -52px;
   opacity: 0.3;
   top: 140px;
   left: 0px;
-  bottom: 0px;
+  bottom: -1330px;
   right: 0px;
   position: absolute;
   z-index: -1;  
@@ -34,6 +34,12 @@
     text-align: left;
     position: sticky;
 }
+
+h2 {
+    font-family: BebasNeue;
+    font-size: 40px;
+}
+
 .row {
     width: 100%;
     margin: 0px -150px 0px -150px;
@@ -62,15 +68,18 @@ a:hover {
     color: orangered;
 }
 
-.img-footer {
+.footer {
     text-align: center;
-    font-size: 12px;
-    height: 60px;
-    width: 100%;
-    margin-top: 200px;
-    position: sticky;
 }
 
 span {
     color: orangered;
+}
+
+p {
+    margin-right: 60px;
+}
+
+img {
+    margin-right: 60px;
 }
