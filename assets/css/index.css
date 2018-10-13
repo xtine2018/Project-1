@@ -150,21 +150,6 @@ h2 {
     text-align: center;
 }
 
-.img-profile {
-    height: auto;
-    width: 100%;
-    padding-right: 20px;
-}
-
-.img-footer {
-    text-align: center;
-    font-size: 12px;
-    height: 60px;
-    width: 100%;
-    margin-top: 200px;
-    position: sticky;
-}
-
 .text {
     font-size: 15px;
     color: black;
@@ -172,4 +157,8 @@ h2 {
 
 span {
     color: orangered;
+}
+
+.footer {
+    text-align: center;
 }
