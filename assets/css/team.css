@@ -1,7 +1,7 @@
-/* Fonts */
-@font-face {
-   font-family: "BebasNeue";
-   src: url('../images/BebasNeue-Regular.ttf');
+ /* Fonts */
+ @font-face {
+    font-family: "BebasNeue";
+    src: url('../images/BebasNeue-Regular.ttf');
 }
 
 /* Header */
@@ -23,10 +23,10 @@ span {
 }
 
 .col {
-   align-content: center;
-   text-align: justify;
-   margin-left: 80px;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-content: center;
+    text-align: justify;
+    margin-left: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .sidenav {
    height: 100%;
