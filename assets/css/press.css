@@ -71,3 +71,11 @@ span {
 .footer {
     text-align: center;
 }
+
+img {
+    width: 100px;
+}
+
+img:hover{
+    opacity: .5;
+}
