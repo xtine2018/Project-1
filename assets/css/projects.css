@@ -3,11 +3,12 @@
     font-family: "BebasNeue";
     src: url('../images/BebasNeue-Regular.ttf');
 }
-.ph234 {
-    border: red solid 2px;
-    background-image: url('/Users/cnyokoyama/Documents/UCLA/Homework/Project-1/assets/images/punchouse2346.jpg');
-    height: 100%;
+
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-weight: bold; */
 }
+
 /* Header */
 .header {
     font-family: BebasNeue;
@@ -16,11 +17,15 @@
     text-align: left;
     position: sticky;
 }
+.row {
+    width: 100%;
+    margin: 0px -150px 0px -150px;
+}
+
 .col {
-    /* align-content: center; */
+    align-content: center;
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: -260px;
 }
 .sidenav {
     height: 100%;
@@ -44,13 +49,12 @@ a:hover {
     text-decoration: none;
     color: orangered;
 }
-
-/* Main Container */
-.main-container {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px 0px 25px 0px;
-    text-align: center;
-}
+    
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+    
   /* Caption text */
   .text {
     color: #f2f2f2;
@@ -139,7 +143,6 @@ h2 {
 span {
     color: orangered;
 }
-
 /* angelo's addition */
 img {
     position: absolute;
