@@ -25,7 +25,7 @@
  .col {
     align-content: center;
     text-align: justify;
-    margin-left: 80px;
+    /* margin-left: 80px; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
  .sidenav {
@@ -167,20 +167,18 @@
      text-align: center;
  }
  
- p {
-     margin-top: 600px;
-     margin-left: 10px;
- }
- 
  img {
-     position: absolute;
      object-fit: cover;
-     width: 222px;
-     height: 600px;
-     padding: 10px;
  }
  
  .text {
      font-size: 15px;
      color: black;
+ }
+
+ .thumbnails {
+   padding-top: 50px;
+ }
+ img {
+   padding: 3px 0px 2px 0px;
  }
