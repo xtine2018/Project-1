@@ -12,7 +12,7 @@
 
 .container::after {
   content: "";
-  background: url('/Users/cnyokoyama/Documents/UCLA/Homework/Project-1/assets/images/marco bw.png');
+  background: url('../images/marco bw.png');
   background-repeat: no-repeat;
   background-size: 70%;
   background-position-y: -200px;
