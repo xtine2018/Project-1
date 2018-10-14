@@ -15,7 +15,7 @@ $(document).ready(function () {
         for (var i = 0; i < data.length; i++) {
             var dwellDiv = $('<div>');
             dwellDiv.addClass("dwell" + [i]);
-            var dwellTitle = $('<h1>');
+            var dwellTitle = $('<h4>');
             dwellTitle.html(data[i].title);
             var dwellDescription = $('<p>');
             dwellDescription.html(data[i].description);
@@ -54,7 +54,7 @@ $(document).ready(function () {
        for (var i = 0; i < data.length; i++) {
         var adDiv = $('<div>');
         adDiv.addClass("ad" + [i]);
-        var adTitle = $('<h1>');
+        var adTitle = $('<h4>');
         adTitle.html(data[i].title);
         var adDescription = $('<p>');
         adDescription.html(data[i].description);
@@ -73,5 +73,6 @@ $(document).ready(function () {
 
     }
        });
+            
     
 }); //document on ready

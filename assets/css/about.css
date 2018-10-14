@@ -5,26 +5,14 @@
 }
 
 .container {
-    align-content: center;
+    /* align-content: center; */
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    background: url('../images/marco-bw.png');
+    background-size: 95%;
+    background-repeat: no-repeat;
+    padding: 20px 20px 300px 20px;
 
-.container::after {
-  content: "";
-  background: url('../images/marco bw.png');
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position-y: -200px;
-  background-position-x: -52px;
-  opacity: 0.3;
-  top: 140px;
-  left: 0px;
-  bottom: -1330px;
-  right: 0px;
-  position: absolute;
-  z-index: -1;  
-  object-fit: cover;
 }
 
 .header {
@@ -48,14 +36,13 @@ h2 {
 .sidenav {
     height: 100%;
     position: fixed; 
-    top: 0; 
-    right: 0;
-    background-color: white;
-    padding-top: 275px;
+    top: 0;
+    right: 0; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     text-align: center;
     width: 10%;
+    top: 33%;
 }
 
 a, a:link, a:visited, a:active {
