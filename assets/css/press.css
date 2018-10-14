@@ -57,10 +57,6 @@ span {
     color: orangered;
 }
 
-.footer {
-    text-align: center;
-}
-
 img {
     width: 400px;
     margin: 25px;
@@ -78,4 +74,10 @@ img:hover{
     font-family: serif;
     font-weight: bold;
     font-size: 35px;
+}
+
+.footer {
+    text-align: center;
+    font-size: .5em;
+    margin-top: 5em;
 }

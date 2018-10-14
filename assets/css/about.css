@@ -61,10 +61,6 @@ a:hover {
     color: orangered;
 }
 
-.footer {
-    text-align: center;
-}
-
 span {
     color: orangered;
 }
@@ -75,4 +71,10 @@ p {
 
 img {
     margin-right: 60px;
+}
+
+.footer {
+    text-align: center;
+    font-size: .5em;
+    margin-top: 5em;
 }

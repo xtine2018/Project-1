@@ -79,5 +79,7 @@ img {
 }
 
 .footer {
-  text-align: center;
+    text-align: center;
+    font-size: .5em;
+    margin-top: 5em;
 }

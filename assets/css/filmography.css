@@ -49,20 +49,10 @@ a:hover {
     color: orangered;
 }
 
-.footer {
-    text-align: center;
-}
-
 h2 {
     font-family: BebasNeue;
     font-size: 50px;
     text-align: center;
-}
-
-.img-profile {
-    height: auto;
-    width: 100%;
-    padding-right: 20px;
 }
 
 .text {
@@ -72,4 +62,10 @@ h2 {
 
 span {
     color: orangered;
+}
+
+.footer {
+    text-align: center;
+    font-size: .5em;
+    margin-top: 5em;
 }
