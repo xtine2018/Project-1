@@ -3,13 +3,18 @@
     font-family: "BebasNeue";
     src: url('../images/BebasNeue-Regular.ttf');
 }
+body {
+    color: rgb(126, 126, 126);
+    background-color: rgb(243, 243, 243);
+}
 
-/* Header */
 .header {
     font-family: BebasNeue;
     color: black;
     font-size: 100px;
     text-align: left;
+    position: sticky;
+    padding-left: 25px;
 }
 
 .col {
@@ -27,6 +32,8 @@
     text-align: center;
     width: 10%;
     top: 33%;
+    color: rgb(126, 126, 126);
+    background-color: rgb(243, 243, 243);
 }
 
 a, a:link, a:visited, a:active {
