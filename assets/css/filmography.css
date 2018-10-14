@@ -8,14 +8,13 @@ color: rgb(126, 126, 126);
 background-color: rgb(243, 243, 243);
 }
 
-.header {
-    font-family: BebasNeue;
-    color: black;
-    font-size: 100px;
-    text-align: left;
+#logo {
+    width: 100%;
     position: sticky;
-    padding-left: 25px;
+    margin-top: .5em;
+    margin-bottom: 5em;
 }
+
 .row {
     width: 100%;
 }
@@ -49,20 +48,10 @@ a:hover {
     color: orangered;
 }
 
-.footer {
-    text-align: center;
-}
-
 h2 {
     font-family: BebasNeue;
     font-size: 50px;
     text-align: center;
-}
-
-.img-profile {
-    height: auto;
-    width: 100%;
-    padding-right: 20px;
 }
 
 .text {
@@ -70,6 +59,8 @@ h2 {
     color: black;
 }
 
-span {
-    color: orangered;
+.footer {
+    text-align: center;
+    font-size: .5em;
+    margin-top: 5em;
 }

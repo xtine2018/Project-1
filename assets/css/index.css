@@ -8,14 +8,13 @@ body {
     background-color: rgb(243, 243, 243);
 }
 
-.header {
-    font-family: BebasNeue;
-    color: black;
-    font-size: 100px;
-    text-align: left;
+#logo {
+    width: 100%;
     position: sticky;
-    padding-left: 25px;
+    margin-top: .5em;
+    margin-bottom: 5em;
 }
+
 .row {
     width: 100%;
 }
@@ -159,10 +158,8 @@ h2 {
     color: black;
 }
 
-span {
-    color: orangered;
-}
-
 .footer {
     text-align: center;
+    font-size: .5em;
+    margin-top: 5em;
 }

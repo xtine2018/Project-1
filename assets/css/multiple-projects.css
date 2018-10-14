@@ -9,18 +9,12 @@
   background-color: rgb(243, 243, 243);
  }
  
- .header {
-  font-family: BebasNeue;
-  color: black;
-  font-size: 100px;
-  text-align: left;
+#logo {
+  width: 100%;
   position: sticky;
-  padding-left: 25px;
+  margin-top: .5em;
+  margin-bottom: 5em;
 }
- 
- span {
-    color: orangered;
- }
  
  .row {
     width: 100%;
@@ -152,18 +146,8 @@
      from {opacity: .4} 
      to {opacity: 1}
    }
- 
- /* Footer */
- .img-footer {
-   text-align: center;
-   font-size: 12px;
-   height: 60px;
-   width: 100%;
-   margin-top: 200px;
-   position: sticky;
- }
- 
- /* Contact Page */
+
+ /* Multi-Projects Page */
  
  h2 {
      font-family: BebasNeue;
@@ -173,6 +157,7 @@
  
  img {
      object-fit: cover;
+     padding: 3px 0px 2px 0px;
  }
  
  .text {
@@ -183,6 +168,9 @@
  .thumbnails {
    padding-top: 50px;
  }
- img {
-   padding: 3px 0px 2px 0px;
- }
+
+ .footer {
+  text-align: center;
+  font-size: .5em;
+  margin-top: 5em;
+}

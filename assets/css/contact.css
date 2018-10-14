@@ -8,14 +8,14 @@ body {
     background-color: rgb(243, 243, 243);
 }
 
-.header {
-    font-family: BebasNeue;
-    color: black;
-    font-size: 100px;
-    text-align: left;
+#logo {
+    width: 100%;
     position: sticky;
-    padding-left: 25px;
+    margin-top: .5em;
+    margin-bottom: 5em;
+    margin-left: 0em;
 }
+
 .row {
     width: 100%;
 }
@@ -70,13 +70,18 @@ h6 {
     margin-top: 20px;
 }
 
+p {
+    margin-bottom: 0em;
+
+}
+
+#links {
+    color: orangered;
+}
+
 .text {
     font-size: 15px;
     color: black;
-}
-
-span {
-    color: orangered;
 }
 
 img {
@@ -85,4 +90,10 @@ img {
 
 .footer {
     text-align: center;
+}
+
+.footer {
+    text-align: center;
+    font-size: .5em;
+    margin-top: 5em;
 }
