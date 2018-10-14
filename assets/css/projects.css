@@ -3,28 +3,27 @@
     font-family: "BebasNeue";
     src: url('../images/BebasNeue-Regular.ttf');
 }
-
+body {
+    color: rgb(126, 126, 126);
+    background-color: rgb(243, 243, 243);
+}
 .container {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* font-weight: bold; */
+    padding-bottom: 600px;
 }
 
-/* Header */
 .header {
     font-family: BebasNeue;
     color: black;
     font-size: 100px;
     text-align: left;
     position: sticky;
+    padding-left: 25px;
 }
 .row {
     width: 100%;
-    margin: 0px -150px 0px -150px;
 }
 
 .col {
-    align-content: center;
-    text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .sidenav {
@@ -37,6 +36,8 @@
     text-align: center;
     width: 10%;
     top: 33%;
+    color: rgb(126, 126, 126);
+    background-color: rgb(243, 243, 243);
 }
 
 a, a:link, a:visited, a:active {
@@ -56,38 +57,6 @@ span {
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
-  }
-    
-  /* Caption text */
-  .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-    
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-    
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
   }
     
   .active, .dot:hover {

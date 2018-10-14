@@ -3,14 +3,18 @@
     font-family: "BebasNeue";
     src: url('../images/BebasNeue-Regular.ttf');
 }
+body {
+    color: rgb(126, 126, 126);
+    background-color: rgb(243, 243, 243);
+}
 
-/* Header */
 .header {
-   font-family: BebasNeue;
-   color: black;
-   font-size: 100px;
-   text-align: left;
-   position: sticky;
+    font-family: BebasNeue;
+    color: black;
+    font-size: 100px;
+    text-align: left;
+    position: sticky;
+    padding-left: 25px;
 }
 
 span {
@@ -19,13 +23,11 @@ span {
 
 .row {
    width: 100%;
-   margin: 0px -150px 0px -150px;
 }
 
 .col {
     align-content: center;
     text-align: justify;
-    margin-left: 80px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .sidenav {
@@ -38,6 +40,8 @@ span {
     text-align: center;
     width: 10%;
     top: 33%;
+    color: rgb(126, 126, 126);
+    background-color: rgb(243, 243, 243);
 }
 
 a, a:link, a:visited, a:active {
@@ -49,15 +53,6 @@ a:hover {
    text-decoration: none;
    color: orangered;
 }
-
-/* Main Container */
-.main-container {
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   padding: 10px 0px 25px 0px;
-   text-align: center;
-}
-
-/* Contact Page */
 
 h2 {
     font-family: BebasNeue;

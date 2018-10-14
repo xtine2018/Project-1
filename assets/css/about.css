@@ -3,15 +3,19 @@
     font-family: "BebasNeue";
     src: url('../images/BebasNeue-Regular.ttf');
 }
+body {
+    color: rgb(126, 126, 126);
+    background-color: rgb(243, 243, 243);
+}
 
 .container {
-    /* align-content: center; */
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: url('../images/marco-bw.png');
     background-size: 95%;
     background-repeat: no-repeat;
     padding: 20px 20px 300px 20px;
+    color: black;
 
 }
 
@@ -21,6 +25,7 @@
     font-size: 100px;
     text-align: left;
     position: sticky;
+    padding-left: 25px;
 }
 
 h2 {
@@ -30,7 +35,6 @@ h2 {
 
 .row {
     width: 100%;
-    margin: 0px -150px 0px -150px;
 }
 
 .sidenav {
@@ -43,6 +47,8 @@ h2 {
     text-align: center;
     width: 10%;
     top: 33%;
+    color: rgb(126, 126, 126);
+    background-color: rgb(243, 243, 243);
 }
 
 a, a:link, a:visited, a:active {
