@@ -1,7 +1,7 @@
 /* Fonts */
 @font-face {
     font-family: "BebasNeue";
-    src: url('../images/BebasNeue-Regular.ttf');
+    src: url('../images/fonts/BebasNeue-Regular.ttf');
 }
 body {
     color: rgb(126, 126, 126);
@@ -11,7 +11,7 @@ body {
 .container {
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: url('../images/marco-bw.png');
+    background: url('../images/team/marco-bw.png');
     background-size: 95%;
     background-repeat: no-repeat;
     padding: 20px 20px 300px 20px;
