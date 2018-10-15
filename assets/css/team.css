@@ -1,7 +1,7 @@
  /* Fonts */
  @font-face {
     font-family: "BebasNeue";
-    src: url('../images/BebasNeue-Regular.ttf');
+    src: url('../images/fonts/BebasNeue-Regular.ttf');
 }
 body {
     color: rgb(126, 126, 126);
@@ -17,6 +17,7 @@ body {
 
 .row {
    width: 100%;
+   margin-left: -70px;
 }
 
 .col {
@@ -55,11 +56,13 @@ h2 {
 }
 
 p {
+    font-size: .9em;
     margin-top: 600px;
     margin-left: 10px;
+    margin-bottom: -43em;
 }
 
-img {
+#team {
     position: absolute;
     object-fit: cover;
     width: 222px;
@@ -75,5 +78,5 @@ img {
 .footer {
     text-align: center;
     font-size: .5em;
-    margin-top: 5em;
+    margin-top: 75em; /* change back to .5em, somehow */
 }

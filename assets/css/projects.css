@@ -1,7 +1,7 @@
 /* Fonts */
 @font-face {
     font-family: "BebasNeue";
-    src: url('../images/BebasNeue-Regular.ttf');
+    src: url('../images/fonts/BebasNeue-Regular.ttf');
 }
 body {
     color: rgb(126, 126, 126);
@@ -77,7 +77,7 @@ a:hover {
   }
 
 /* Angelo's Addition */
-img {
+#projects {
     position: absolute;
     object-fit: cover;
     width: 222px;
@@ -85,7 +85,7 @@ img {
     padding: 10px;
 
 }
-img:hover {
+#projects:hover {
     opacity: 0.5;
     filter: alpha(opacity=50); /* For IE8 and earlier */
 }
