@@ -1,4 +1,3 @@
-/* Fonts */
 @font-face {
     font-family: "BebasNeue";
     src: url('../images/fonts/BebasNeue-Regular.ttf');
@@ -19,7 +18,7 @@ body {
 .col {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    font-size: 15px;
+    font-size: 1em;
 }
 .sidenav {
     height: 100%;
@@ -27,17 +26,17 @@ body {
     top: 0;
     right: 0; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+    font-size: 1em;
     text-align: center;
     width: 10%;
     top: 33%;
     color: rgb(126, 126, 126);
     background-color: rgb(243, 243, 243);
-}
+  }
 
 a, a:link, a:visited, a:active {
     text-decoration: none;
-    color: black;
+    color: rgb(126, 126, 126);
 }
 
 a:hover {
@@ -45,33 +44,18 @@ a:hover {
     color: orangered;
 }
 
-h2 {
-    font-family: BebasNeue;
-    font-size: 50px;
-    text-align: center;
-}
-
 img {
-    width: 400px;
-    margin: 25px;
+    width: 30em;
+    margin: 1em;
 }
 
 img:hover{
     opacity: .5;
 }
 
-.row {
-    width: 100%;
-}
-
-.h3 {
-    font-family: serif;
-    font-weight: bold;
-    font-size: 35px;
-}
-
 .footer {
     text-align: center;
     font-size: .5em;
     margin-top: 5em;
+    margin-bottom: 1em;
 }
