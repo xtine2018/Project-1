@@ -19,18 +19,13 @@ background-color: rgb(243, 243, 243);
     width: 100%;
 }
 
-.col {
-    align-content: center;
-    text-align: justify;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 .sidenav {
     height: 100%;
     position: fixed; 
     top: 0;
     right: 0; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+    font-size: 1em;
     text-align: center;
     width: 10%;
     top: 33%;
@@ -40,7 +35,7 @@ background-color: rgb(243, 243, 243);
 
 a, a:link, a:visited, a:active {
     text-decoration: none;
-    color: black;
+    color: rgb(126, 126, 126);
 }
 
 a:hover {
@@ -48,19 +43,9 @@ a:hover {
     color: orangered;
 }
 
-h2 {
-    font-family: BebasNeue;
-    font-size: 50px;
-    text-align: center;
-}
-
-.text {
-    font-size: 15px;
-    color: black;
-}
-
 .footer {
     text-align: center;
     font-size: .5em;
     margin-top: 5em;
+    margin-bottom: 1em;
 }
