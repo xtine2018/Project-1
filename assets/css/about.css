@@ -28,6 +28,7 @@ body {
 h2 {
     font-family: BebasNeue;
     font-size: 3em;
+    color: rgb(104, 104, 104);
 }
 
 .sidenav {
@@ -42,7 +43,7 @@ a, a:link, a:visited, a:active {
 
 a:hover {
     text-decoration: none;
-    color: orange;
+    color: rgb(255, 97, 0);
 }
 
 .footer {
@@ -50,6 +51,10 @@ a:hover {
     font-size: .5em;
     margin-top: 5em;
     margin-bottom: 1em;
+<<<<<<< HEAD
 }
 
 
+=======
+}
+>>>>>>> cb86aa07d306198046ed178ac37ba619f9267561
