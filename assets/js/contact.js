@@ -24,9 +24,9 @@ $(document).ready(function () {
     event.preventDefault();
 
     //stores input into variables
-    name = $("#name").val();
-    email = $("#email").val();
-    comment = $("#comment").val();
+    name = $("#name").val().trim();
+    email = $("#email").val().trim();
+    comment = $("#comment").val().trim();
 
     database.ref().push({ //set only replaces use .push
         name: name,
