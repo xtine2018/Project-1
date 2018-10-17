@@ -26,7 +26,10 @@
 
   <!-- Favicon Icon -->
   <link href="assets/images/logos/punchouse logo website front page final 10-11-16.png" rel="icon" type="image/x-icon" />
-  
+
+  <!-- firebase js -->
+  <script src="https://www.gstatic.com/firebasejs/5.5.4/firebase.js"></script>
+
 </head>
 <body>
 
@@ -82,6 +85,28 @@
       <br><br>
       <p>phone: 310-598-2041</p>
       <a href="mailto:marco@punchouse.com" id="links">email: marco@punchouse.com</a>
+      <div>
+        <br>
+        <!-- <h2> GET IN TOUCH </h2> -->
+       <p>If you have questions or comments, please get a hold of us in whichever way is most convenient. Ask away. There is no reasonable question that our team can not answer. </p>
+       </div>
+       <br>
+         <form>
+           <div class="form-group">
+             <label for="name">Name:</label>
+             <input type="text" class="form-control" id="name" >
+           </div>
+           <div class="form-group">
+             <label for="email">Email:</label>
+             <input type="email" class="form-control" id="email" >
+           </div>
+           <div class="form-group">
+             <label for="exampleFormControlSelect2">Comments:</label>
+             <textarea class="form-control" id="comment" rows="3"></textarea>
+           </div>
+           <input id="submit" type="submit" name="submit" value="submit">
+       
+         </form>
     </div>
   </div>
 </div>
@@ -93,7 +118,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <!-- JS Stylesheet -->
-<script src="assets/js/project.js"></script>
+<!-- <script src="assets/js/project.js"></script> -->
+<script src="assets/js/contact.js"></script>
+
 
 </body>
 </html>
