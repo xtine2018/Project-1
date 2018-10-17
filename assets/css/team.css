@@ -1,4 +1,3 @@
- /* Fonts */
  @font-face {
     font-family: "BebasNeue";
     src: url('../images/fonts/BebasNeue-Regular.ttf');
@@ -15,15 +14,11 @@ body {
     margin-bottom: 5em;
 }
 
-.row {
-   width: 100%;
-   margin-left: -70px;
-}
-
 .col {
-    align-content: center;
-    text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    padding-left: 1em;
+    text-align: center;
 }
 .sidenav {
     height: 100%;
@@ -31,17 +26,17 @@ body {
     top: 0;
     right: 0; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+    font-size: 1em;
     text-align: center;
     width: 10%;
     top: 33%;
     color: rgb(126, 126, 126);
     background-color: rgb(243, 243, 243);
-}
+  }
 
 a, a:link, a:visited, a:active {
    text-decoration: none;
-   color: black;
+   color: rgb(126, 126, 126);
 }
 
 a:hover {
@@ -49,34 +44,21 @@ a:hover {
    color: orangered;
 }
 
-h2 {
-    font-family: BebasNeue;
-    font-size: 50px;
-    text-align: center;
-}
-
-p {
-    font-size: .9em;
-    margin-top: 600px;
-    margin-left: 10px;
-    margin-bottom: -43em;
+.row {
+    padding-left: 2em;
+    width: 90%;
 }
 
 #team {
-    position: absolute;
+    position: inline;
     object-fit: cover;
     width: 222px;
     height: 600px;
-    padding: 10px;
-}
-
-.text {
-    font-size: 15px;
-    color: black;
 }
 
 .footer {
     text-align: center;
     font-size: .5em;
-    margin-top: 75em; /* change back to .5em, somehow */
+    margin-top: .5em; /* change back to .5em, somehow */
+    margin-bottom: 1em;
 }
