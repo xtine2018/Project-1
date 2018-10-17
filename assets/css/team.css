@@ -1,3 +1,5 @@
+/* dsfafadfsafsaf */
+
  @font-face {
     font-family: "BebasNeue";
     src: url('../images/fonts/BebasNeue-Regular.ttf');
@@ -21,6 +23,7 @@ body {
     text-align: center;
 }
 .sidenav {
+    float: right;
    text-align: center;
    padding-top: 50%;
   }
@@ -49,6 +52,9 @@ a:hover {
     margin-top: .5em;
     margin-bottom: 1em;
 }
+<<<<<<< HEAD
+
+=======
 .row {
     padding-left: 5%;
 <<<<<<< HEAD
@@ -56,3 +62,4 @@ a:hover {
 =======
 }
 >>>>>>> 7ded3bd8e1a450b9a1409c53068a02e9f5e5797c
+>>>>>>> 58bdf2211f3466e04d33605d25c2face3a21d288
