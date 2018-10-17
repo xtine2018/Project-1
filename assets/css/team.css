@@ -25,6 +25,7 @@ body {
 .sidenav {
     float: right;
    text-align: center;
+   padding-top: 50%;
   }
 
 a, a:link, a:visited, a:active {
@@ -34,11 +35,7 @@ a, a:link, a:visited, a:active {
 
 a:hover {
    text-decoration: none;
-   color: orange;
-}
-
-.row {
-    align-content: center;
+   color: rgb(255, 97, 0);
 }
 
 #team {
@@ -48,10 +45,17 @@ a:hover {
     padding: 1%;
 }
 
+
 .footer {
     text-align: center;
     font-size: .5em;
     margin-top: .5em; /* change back to .5em, somehow */
     margin-bottom: 1em;
 }
+<<<<<<< HEAD
 
+=======
+.row {
+    padding-left: 5%;
+}
+>>>>>>> master

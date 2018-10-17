@@ -14,21 +14,9 @@ body {
     margin-bottom: 5em;
 }
 
-.row {
-    width: 100%;
-}
 .sidenav {
-    height: 100%;
-    position: fixed; 
-    top: 0;
-    right: 0; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
-    text-align: center;
-    width: 10%;
-    top: 33%;
-    color: rgb(126, 126, 126);
-    background-color: rgb(243, 243, 243);
+text-align: center;
+padding-top: 50%;
 }
 
 a, a:link, a:visited, a:active {
@@ -38,12 +26,12 @@ a, a:link, a:visited, a:active {
 
 a:hover {
     text-decoration: none;
-    color: orangered;
+    color: rgb(255, 97, 0);
 }
 
 /* Slideshow */
 .slideshowcontainer {
-    width: 75%;
+    width: 85%;
     margin: auto;
   }
     
@@ -72,4 +60,8 @@ a:hover {
     font-size: .5em;
     margin-top: 5em;
     margin-bottom: 1em;
+}
+
+.row {
+    padding-left: 5%;
 }

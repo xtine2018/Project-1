@@ -7,7 +7,7 @@ body {
     background-color: rgb(243, 243, 243);
 }
 
-.container {
+.col-lg-10 {
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: url('../images/team/marco-bw.png');
@@ -28,24 +28,12 @@ body {
 h2 {
     font-family: BebasNeue;
     font-size: 3em;
-}
-
-.row {
-    width: 100%;
+    color: rgb(104, 104, 104);
 }
 
 .sidenav {
-    height: 100%;
-    position: fixed; 
-    top: 0;
-    right: 0; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
-    text-align: center;
-    width: 10%;
-    top: 33%;
-    color: rgb(126, 126, 126);
-    background-color: rgb(243, 243, 243);
+ text-align: center;
+ padding-top: 50%;
 }
 
 a, a:link, a:visited, a:active {
@@ -55,7 +43,7 @@ a, a:link, a:visited, a:active {
 
 a:hover {
     text-decoration: none;
-    color: orangered;
+    color: rgb(255, 97, 0);
 }
 
 .footer {
