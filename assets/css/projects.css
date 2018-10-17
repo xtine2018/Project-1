@@ -15,11 +15,12 @@ body {
 }
 
 .row {
-    align-content: center;
+    padding-left: 5%;
 }
 
 .sidenav {
    text-align: center;
+   padding-top: 50%;
 }
 
 a, a:link, a:visited, a:active {
@@ -29,7 +30,7 @@ a, a:link, a:visited, a:active {
 
 a:hover {
     text-decoration: none;
-    color: orange;
+    color: rgb(255, 97, 0);
 }
  
 /* Angelo's Addition */
@@ -51,4 +52,8 @@ a:hover {
     font-size: .5em;
     margin-top: 5em;
     margin-bottom: 1em;
+}
+
+.row {
+    padding-left: 5%;
 }

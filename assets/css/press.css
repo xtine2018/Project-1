@@ -15,23 +15,14 @@ body {
     margin-left: 0em;
 }
 
-.col {
+.col-lg-5 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-size: 1em;
 }
 .sidenav {
-    height: 100%;
-    position: fixed; 
-    top: 0;
-    right: 0; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
     text-align: center;
-    width: 10%;
-    top: 33%;
-    color: rgb(126, 126, 126);
-    background-color: rgb(243, 243, 243);
+    padding-top: 50%;
   }
 
 a, a:link, a:visited, a:active {
@@ -41,12 +32,12 @@ a, a:link, a:visited, a:active {
 
 a:hover {
     text-decoration: none;
-    color: orangered;
+    color: rgb(255, 97, 0);
 }
 
 img {
-    width: 30em;
-    margin: 1em;
+    width: 35em;
+    margin-bottom: 1em;
 }
 
 img:hover{
@@ -58,4 +49,24 @@ img:hover{
     font-size: .5em;
     margin-top: 5em;
     margin-bottom: 1em;
+}
+
+.row {
+    padding-left: 5%;
+}
+
+#latimes {
+    height: auto;
+}
+
+#dwellImg {
+    font-size: 0.01em;
+}
+
+#archDig {
+    font-size: 1em;
+}
+
+#hgtv {
+    font-size: 0.1em;
 }

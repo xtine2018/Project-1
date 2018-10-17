@@ -7,11 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>PuncHouse</title>
 
-  <!-- Reset Stylesheet -->
-  <link rel="stylesheet" href="assets/css/reset.css" />
-
   <!-- Bootstrap CDN -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
   <!-- CSS Stylesheet -->
   <link rel="stylesheet" href="assets/css/contact.css" />
@@ -26,10 +23,15 @@
 
   <!-- Favicon Icon -->
   <link href="assets/images/logos/punchouse logo website front page final 10-11-16.png" rel="icon" type="image/x-icon" />
-  
+
+  <!-- firebase js -->
+  <script src="https://www.gstatic.com/firebasejs/5.5.4/firebase.js"></script>
+
 </head>
 <body>
 
+<div class="container-fluid">
+  
 <!-- Header -->
 <div class="header">
     <a href="index.html">
@@ -37,9 +39,63 @@
     </a>
 </div>
 
-<div class="container">
-   
-  <!-- Navigation Bar -->
+<section>
+<div class="row">
+
+  <div class="col-lg-5"> 
+    <div class="img-contact">
+      <img src="assets/images/team/marco.png" alt="" height="590" width="484" align="right"> 
+    </div>
+  </div>
+
+  
+<div class="col-lg-5">
+  <h2>Contact</h2>
+    <p>PuncHouse Design Group</p>
+    <a href="https://www.google.com/maps/place/5702+Pico+Blvd,+Los+Angeles,+CA+90019/@34.0506215,-118.3649672,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2b9119b9a52f9:0xfee99d03d39be19f!8m2!3d34.0506215!4d-118.3627785" id="links">5702 W. Pico Blvd.</a>
+    <br>
+    <a href="https://www.google.com/maps/place/5702+Pico+Blvd,+Los+Angeles,+CA+90019/@34.0506215,-118.3649672,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2b9119b9a52f9:0xfee99d03d39be19f!8m2!3d34.0506215!4d-118.3627785" id="links">Los Angeles, CA 90019</a>
+    <br><br>
+    <p>phone: 310-598-2041</p>
+    <p>mobile: 213-880-1209</p>
+    <a href="mailto:marco@punchouse.com" id="links">email: marco@punchouse.com</a>
+    <br><br>
+    <p>Social Media</p>
+    <a href="https://www.linkedin.com/in/marco-dimaccio-2511875/" id="links">linkedin: Marco DiMaccio</a>
+    <br>
+    <a href="https://twitter.com/punchouse?lang=en" id="links">twitter: Marco DiMaccio</a>
+    <br>
+    <a href="https://www.facebook.com/puncHouse/" id="links">facebook: PuncHouse Design Group</a>
+    <br>
+  <div>
+  <br>
+  
+  <!-- Visitor Input Section -->
+  <p>For more information or questions about our business, contact us today!</p>
+  <br>
+  <form>
+    <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" class="form-control" id="name" >
+    </div>
+
+    <div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" class="form-control" id="email" >
+    </div>
+
+    <div class="form-group">
+    <label for="exampleFormControlSelect2">Message:</label>
+    <textarea class="form-control" id="message" rows="3"></textarea>
+    </div>
+    <input id="submit" type="submit" name="submit" value="Submit">
+    </form>
+  </div>
+</div>
+
+<!-- Navigation Bar -->
+<div class="col-lg-2">
+
   <div class="sidenav">
       <a href="about.html">About</a>
       <br>
@@ -50,50 +106,40 @@
       <a href="team.html">Team</a>
       <br>
       <br>
-      <a href="film.html">Film</a>
+      <!-- <a href="film.html">Film</a>
       <br>
-      <br>
+      <br> -->
       <a href="press.html">Press</a>
       <br>
       <br>
       <a href="contact.html">Contact</a>
       <br>
       <br>
+      <a href="mailto:marco@punchouse.com" target="_blank"><i class="fas fa-envelope"></i></a>
       <a href="https://www.linkedin.com/in/marco-dimaccio-2511875/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
       <a href="https://twitter.com/punchouse?lang=en" target="_blank"><i class="fab fa-twitter fa-1x"></i></a>
       <a href="https://www.facebook.com/puncHouse/"><i class="fab fa-facebook-f"></i></a>
     </div>
   </div>
-  <br>
-
-<!-- Contact Content -->
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <img src="assets/images/team/marco.png" alt="" height="590" width="484">
-    </div>
-  
-    <div class="col">
-      <h2>Contact</h2>
-      <p>PuncHouse Design Group</p>
-      <a href="https://www.google.com/maps/place/5702+Pico+Blvd,+Los+Angeles,+CA+90019/@34.0506215,-118.3649672,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2b9119b9a52f9:0xfee99d03d39be19f!8m2!3d34.0506215!4d-118.3627785" id="links">5702 W. Pico Blvd.</a>
-      <br>
-      <a href="https://www.google.com/maps/place/5702+Pico+Blvd,+Los+Angeles,+CA+90019/@34.0506215,-118.3649672,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2b9119b9a52f9:0xfee99d03d39be19f!8m2!3d34.0506215!4d-118.3627785" id="links">Los Angeles, CA 90019</a>
-      <br><br>
-      <p>phone: 310-598-2041</p>
-      <a href="mailto:marco@punchouse.com" id="links">email: marco@punchouse.com</a>
-    </div>
-  </div>
-</div>
+</section>
 
 <!-- Footer -->
-<div class="footer">Copyright©</div>
+<div class="footer">© PuncHouse 2018</div>
+
+
+</div>
+
+</div>
+</section>
+
+
 
 <!-- AJAX CDN -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <!-- JS Stylesheet -->
-<script src="assets/js/project.js"></script>
+<script src="assets/js/contact.js"></script>
+
 
 </body>
 </html>
