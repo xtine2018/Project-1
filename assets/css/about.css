@@ -32,6 +32,7 @@ h2 {
 
 .sidenav {
  text-align: center;
+ padding-top: 50%;
 }
 
 a, a:link, a:visited, a:active {
@@ -49,8 +50,4 @@ a:hover {
     font-size: .5em;
     margin-top: 5em;
     margin-bottom: 1em;
-}
-
-section {
-    position: inline;
 }

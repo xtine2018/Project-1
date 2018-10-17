@@ -16,25 +16,16 @@
 }
  
  .row {
-    width: 100%;
+    text-align: center;
  }
  
- .col {
+ .col-lg-5 {
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
  .sidenav {
-  height: 100%;
-  position: fixed; 
-  top: 0;
-  right: 0; 
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1em;
-  text-align: center;
-  width: 10%;
-  top: 33%;
-  color: rgb(126, 126, 126);
-  background-color: rgb(243, 243, 243);
+   text-align: center;
+   padding-top: 50%;
 }
  
  a, a:link, a:visited, a:active {
@@ -44,7 +35,7 @@
  
  a:hover {
     text-decoration: none;
-    color: orangered;
+    color: orange;
  }
 
  .thumbnails {
