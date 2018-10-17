@@ -36,12 +36,13 @@ a, a:link, a:visited, a:active {
 
 a:hover {
     text-decoration: none;
-    color: orange;
+    color: rgb(255, 97, 0);
 }
 
 h2 {
     font-family: BebasNeue;
     font-size: 3em;
+    color: rgb(104, 104, 104);
 }
 
 p {
@@ -49,7 +50,13 @@ p {
 }
 
 #links {
-    color: orangered;
+    color: rgb(255, 97, 0);;
+}
+
+input#submit {
+    background: rgb(255, 97, 0);
+    border-radius: .25em;
+    color: white;
 }
 
 .footer {
@@ -58,7 +65,3 @@ p {
     margin-top: 5em;
     margin-bottom: 1em;
 }
-
-
-
-
