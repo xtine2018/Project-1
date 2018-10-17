@@ -50,6 +50,9 @@ a:hover {
 .footer {
     text-align: center;
     font-size: .5em;
-    margin-top: .5em; /* change back to .5em, somehow */
+    margin-top: .5em;
     margin-bottom: 1em;
+}
+.row {
+    padding-left: 5%;
 }
