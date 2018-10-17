@@ -6,9 +6,6 @@ body {
     color: rgb(126, 126, 126);
     background-color: rgb(243, 243, 243);
 }
-.container {
-    padding-bottom: 40em;
-}
 
 #logo {
     width: 100%;
@@ -22,16 +19,7 @@ body {
 }
 
 .sidenav {
-    /* height: 100%;
-    position: fixed; 
-    top: 0;
-    right: 0; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
-    text-align: center;
-    top: 33%;
-    color: rgb(126, 126, 126);
-    background-color: rgb(243, 243, 243); */
+   text-align: center;
 }
 
 a, a:link, a:visited, a:active {
@@ -41,7 +29,7 @@ a, a:link, a:visited, a:active {
 
 a:hover {
     text-decoration: none;
-    color: orangered;
+    color: orange;
 }
  
 /* Angelo's Addition */
