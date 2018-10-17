@@ -21,17 +21,7 @@ body {
     text-align: center;
 }
 .sidenav {
-    height: 100%;
-    position: fixed; 
-    top: 0;
-    right: 0; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
-    text-align: center;
-    width: 10%;
-    top: 33%;
-    color: rgb(126, 126, 126);
-    background-color: rgb(243, 243, 243);
+   text-align: center;
   }
 
 a, a:link, a:visited, a:active {
@@ -41,19 +31,18 @@ a, a:link, a:visited, a:active {
 
 a:hover {
    text-decoration: none;
-   color: orangered;
+   color: orange;
 }
 
 .row {
-    padding-left: 2em;
-    width: 90%;
+    align-content: center;
 }
 
 #team {
-    position: inline;
     object-fit: cover;
-    width: 222px;
+    width: 100%;
     height: 600px;
+    padding: 1%;
 }
 
 .footer {
