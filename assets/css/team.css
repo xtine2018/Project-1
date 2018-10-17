@@ -35,10 +35,6 @@ a:hover {
    color: orange;
 }
 
-.row {
-    align-content: center;
-}
-
 #team {
     object-fit: cover;
     width: 100%;
@@ -52,4 +48,7 @@ a:hover {
     font-size: .5em;
     margin-top: .5em; /* change back to .5em, somehow */
     margin-bottom: 1em;
+}
+.row {
+    padding-left: 5%;
 }
