@@ -14,17 +14,12 @@ body {
     margin-bottom: 5em;
     margin-left: 0em;
 }
-
-.row {
-    width: 100%;
-}
-
-.col {
+.col-lg-5 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .sidenav {
 text-align: center;
-height: 100%;
 padding-top: 50%;
 
 }
