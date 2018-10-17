@@ -57,8 +57,9 @@ a:hover {
 
 }
 
-.col-sm-2 {
+.col-lg-2 {
     padding-left: 1em;
+    margin: 1em;
 }
 
 #projects:hover {
