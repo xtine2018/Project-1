@@ -48,7 +48,6 @@ a:hover {
 #projects {
     width: 100%;
     object-fit: cover;
-    width: 250px;
     height: 600px;
     padding: 1%;
 
