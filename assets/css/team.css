@@ -49,7 +49,7 @@ a:hover {
 .footer {
     text-align: center;
     font-size: .5em;
-    margin-top: .5em; /* change back to .5em, somehow */
+    margin-top: .5em;
     margin-bottom: 1em;
 }
 <<<<<<< HEAD
@@ -57,5 +57,13 @@ a:hover {
 =======
 .row {
     padding-left: 5%;
+<<<<<<< HEAD
 }
+<<<<<<< HEAD
 >>>>>>> master
+=======
+=======
+}
+>>>>>>> 7ded3bd8e1a450b9a1409c53068a02e9f5e5797c
+>>>>>>> 58bdf2211f3466e04d33605d25c2face3a21d288
+>>>>>>> d8c725be24c2afc52ae7ffb9dec3d8e022c4f5cf
