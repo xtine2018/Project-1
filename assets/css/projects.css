@@ -15,7 +15,7 @@ body {
 }
 
 .row {
-    align-content: center;
+    padding-left: 5%;
 }
 
 .sidenav {
@@ -30,7 +30,7 @@ a, a:link, a:visited, a:active {
 
 a:hover {
     text-decoration: none;
-    color: orange;
+    color: rgb(255, 97, 0);
 }
  
 /* Angelo's Addition */
