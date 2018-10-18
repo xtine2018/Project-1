@@ -1,3 +1,3 @@
-$('.carousel').carousel({
-  interval: 5000
+$('.carousel-item').carousel({
+  pause: hover
 });

@@ -48,8 +48,9 @@ p {
     color: rgb(255, 97, 0);;
 }
 
-input#submit {
+#submit {
     background: rgb(255, 97, 0);
+    border: rgb(255, 97, 0);
     border-radius: .25em;
     color: white;
 }
@@ -64,10 +65,10 @@ input#submit {
 .row {
     padding-left: 5%;
 }
-<<<<<<< HEAD
+.fas {
+    font-size: 1.3em;
+}
 
-=======
->>>>>>> 7ded3bd8e1a450b9a1409c53068a02e9f5e5797c
-
-
-
+.fab {
+    font-size: 1.3em;
+}

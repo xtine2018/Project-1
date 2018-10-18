@@ -7,7 +7,7 @@ $(document).ready(function () {
         data: {
             rss_url: 'https://www.dwell.com/@dwell/rss',
             api_key: '6w6rwsetffvgmkykhysltd4yw3keej3hllk6b6gp', // put your api key here
-            count: 1
+            count: 3
         }
     }).done(function (response) {
         var data = response.items;
@@ -46,7 +46,7 @@ $(document).ready(function () {
           data: {
               rss_url: 'https://www.architecturaldigest.com/feed/rss',
               api_key: '6w6rwsetffvgmkykhysltd4yw3keej3hllk6b6gp', // put your api key here
-              count: 1
+              count: 3
           }
        }).done(function (response) {
     //    console.log(response);

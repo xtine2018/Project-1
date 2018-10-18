@@ -49,10 +49,14 @@ a:hover {
     margin-top: 5em;
     margin-bottom: 1em;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 7ded3bd8e1a450b9a1409c53068a02e9f5e5797c
 .row {
     padding-left: 5%;
+}
+
+.fas {
+    font-size: 1.3em;
+}
+
+.fab {
+    font-size: 1.3em;
 }

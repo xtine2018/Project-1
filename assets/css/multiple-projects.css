@@ -7,6 +7,10 @@
   color: rgb(126, 126, 126);
   background-color: rgb(243, 243, 243);
  }
+
+p {
+  font-size: 1em;
+}
  
 #logo {
   width: 100%;
@@ -17,9 +21,10 @@
  
  .row {
     text-align: center;
+    padding-left: 5%;
  }
  
- .col-lg-5 {
+ .col-lg-10 {
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
@@ -39,7 +44,11 @@
  }
 
  .thumbnails {
-   padding-top: 3em;
+   margin: 2em 0em 0em 0em;
+ }
+
+ img {
+   object-fit: cover;
  }
 
  .footer {
@@ -49,6 +58,14 @@
   margin-bottom: 1em;
 }
 
-.row {
-  padding-left: 5%;
+.fas {
+  font-size: 1.3em;
+}
+
+.fab {
+  font-size: 1.3em;
+}
+
+.leftPic {
+  object-fit: cover;
 }
