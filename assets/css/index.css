@@ -67,13 +67,15 @@ a:hover {
 }
 
 .fas {
-    font-size: 5em;
+    font-size: 1.3em;
 }
 
 .fab {
-    font-size: 5em;
+    font-size: 1.3em;
 }
 
 .icons {
-    
-    }
+    margin-top: -75px;
+    float: right;
+    margin-right: 50px;
+}
