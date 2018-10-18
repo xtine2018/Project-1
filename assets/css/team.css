@@ -49,13 +49,9 @@ a:hover {
 }
 
 .fas {
-    font-size: 2em;
+    font-size: 1.3em;
 }
 
 .fab {
-    font-size: 2em;
-}
-
-.icons {
-    text-align: right;
+    font-size: 1.3em;
 }
