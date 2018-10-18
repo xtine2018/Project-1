@@ -39,19 +39,19 @@ $(document).ready(function () {
     $('#comment').val('');
 
   });
-//   database.ref().on("child_added", function (snapshot) {
-//     // storing the snapshot.val() in a variable for convenience
-//     var sv = snapshot.val();
-//     console.log(sv);
-//     // Console.loging the last user's data
-//     console.log(snapshot.key);
-//     console.log(sv.name);
-//     console.log(sv.email);
-//     console.log(sv.comment);
+  database.ref().on("child_added", function (snapshot) {
+    // storing the snapshot.val() in a variable for convenience
+    var sv = snapshot.val();
+    console.log(sv);
+    // Console.loging the last user's data
+    console.log(snapshot.key);
+    console.log(sv.name);
+    console.log(sv.email);
+    console.log(sv.comment);
 
 
-//   }, function (errorObject) {
-//     console.log("Errors handled: " + errorObject.code);
-//   });
+  }, function (errorObject) {
+    console.log("Errors handled: " + errorObject.code);
+  });
 
 })

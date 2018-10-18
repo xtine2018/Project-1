@@ -6,10 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>PuncHouse</title>
-
   <!-- Bootstrap CDN -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
 
+  <!-- Bootstrap Jquery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
   <!-- CSS Stylesheet -->
   <link rel="stylesheet" href="assets/css/team.css" />
 
@@ -18,86 +25,116 @@
 
   <!-- Font Awesome CDN-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+
   <!-- Favicon Icon -->
   <link href="assets/images/logos/punchouse logo website front page final 10-11-16.png" rel="icon" type="image/x-icon" />
-</head>
-<body>
 
-<div class="container-fluid">
+</head>
+
+<!-- <div class="container-fluid"> -->
 <!-- Header -->
 <div class="header">
-    <a href="index.html">
+  <a href="index.html">
     <img src="assets/images/logos/punchouse logo for website 2nd page_transparent.png" id="logo" alt="logo">
-    </a>
+  </a>
 </div>
 
-<section>
-<!-- <div class="container"> -->
-  <div class="row">
-    <div class="col-lg-2">
-      <img src="assets/images/team/marco_d.png" id="team" alt="team" width="500" height="600">        
-      Marco DiMaccio<br>Principal
-    </div>
 
-    <div class="col-lg-2">
-      <img src="assets/images/team/sharyn starr_d.png" id="team" alt="team" width="500" height="600"> 
-      Sharyn Starr<br>Business Management
-    </div>
+<div class="container-fluid">
+  <div class="row blog">
+    <div class="col-md-12">
+      <div id="blogCarousel" class="carousel slide" data-ride="carousel">
 
-    <div class="col-lg-2">
-      <img src="assets/images/team/grazi_d.png" id="team" alt="team" width="500" height="600"> 
-      Grazi Tanoue<br>Architect
+        <ol class="carousel-indicators">
+          <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#blogCarousel" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+
+            
+            <div class="row">
+
+              <div class="col-lg-3">
+                <img src="assets/images/team/marco_d.png" id="team" alt="team" style="max-width:100%;">
+                Marco DiMaccio<br>Principal
+              </div>
+
+              <div class="col-lg-3">
+                <img src="assets/images/team/sharyn starr_d.png" id="team" alt="team" style="max-width:100%;">
+                Sharyn Starr<br>Business Management
+              </div>
+
+              <div class="col-lg-3">
+                <img src="assets/images/team/grazi_d.png" id="team" alt="team" style="max-width:100%;">
+                Grazi Tanoue<br>Architect
+              </div>
+            </div>
+
+
+            <!--.row-->
+          </div>
+          <!--.item-->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-3">
+                <img src="assets/images/team/gabe_d.png" id="team" alt="team" style="max-width:100%;">
+                Gabe Wellington<br>Expediter/CAD
+              </div>
+
+              <div class="col-lg-3">
+                <img src="assets/images/team/peter_d.png" id="team" alt="team" style="max-width:100%;">
+                Peter Shirley<br>Structural Engineer
+              </div>
+            </div>
+            <!--.row-->
+          </div>
+          <!--.item-->
+          <div class="col-lg-2">
+            <!-- Navigation Bar -->
+            <div class="sidenav">
+              <a href="about.html">About</a>
+              <br>
+              <br>
+              <a href="projects.html">Projects</a>
+              <br>
+              <br>
+              <a href="team.html">Team</a>
+              <br>
+              <br>
+              <a href="press.html">Press</a>
+              <br>
+              <br>
+              <a href="current-events.html">Current Events</a>
+              <br>
+              <br>
+              <a href="contact.html">Contact</a>
+              <br>
+              <br>
+              <div class="icons">
+                <a href="mailto:marco@punchouse.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
+                <!-- &nbsp; -->
+                <a href="https://www.linkedin.com/in/marco-dimaccio-2511875/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <!-- &nbsp; -->
+                <a href="https://twitter.com/punchouse?lang=en" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                <!-- &nbsp; -->
+                <a href="https://www.facebook.com/puncHouse/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+              </div>
+            </div>
+          </div>
+          <br>
+
+          <!--carousel div's down't delete anything lower this-->
+        </div>
+
       </div>
-
-    <div class="col-lg-2">
-      <img src="assets/images/team/gabe_d.png" id="team" alt="team" width="500" height="600"> 
-      Gabe Wellington<br>Expediter/CAD
     </div>
 
-    <div class="col-lg-2">
-      <img src="assets/images/team/peter_d.png" id="team" alt="team" width="500" height="600">
-      Peter Shirley<br>Structural Engineer 
-    </div>
-
-    <div class="col-lg-2">
-      <!-- Navigation Bar -->
-      <div class="sidenav">
-          <a href="about.html">About</a>
-          <br>
-          <br>
-          <a href="projects.html">Projects</a>
-          <br>
-          <br>
-          <a href="team.html">Team</a>
-          <br>
-          <br>
-          <a href="press.html">Press</a>
-          <br>
-          <br>
-          <a href="current-events.html">Current Events</a>
-          <br>
-          <br>
-          <a href="contact.html">Contact</a>
-          <br>
-          <br>
-          <div class="icons">
-              <a href="mailto:marco@punchouse.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
-              <!-- &nbsp; -->
-              <a href="https://www.linkedin.com/in/marco-dimaccio-2511875/" target="_blank"><i class="fab fa-linkedin"></i></a>
-              <!-- &nbsp; -->
-              <a href="https://twitter.com/punchouse?lang=en" target="_blank"><i class="fab fa-twitter-square"></i></a>
-              <!-- &nbsp; -->
-              <a href="https://www.facebook.com/puncHouse/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-      </div>
   </div>
-  
-<br>
-    
-</div> 
+  <!-- div container-fluid -->
 </div>
-</section>
 
 <!-- Footer -->
 <div class="footer">© PuncHouse 2018</div>
@@ -106,7 +143,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <!-- JS Stylesheet -->
-<script src="assets/js/project.js"></script>
+<script src="assets/js/team.js"></script>
 
-</body>
 </html>
