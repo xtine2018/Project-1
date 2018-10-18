@@ -9,7 +9,7 @@
  }
 
 p {
-  font-size: 13px;
+  font-size: 1em;
 }
  
 #logo {
@@ -24,7 +24,7 @@ p {
     padding-left: 5%;
  }
  
- .col-lg-5 {
+ .col-lg-10 {
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
@@ -44,11 +44,11 @@ p {
  }
 
  .thumbnails {
-   padding-top: 3em;
+   margin: 2em 0em 0em 0em;
  }
 
  img {
-   margin-top: .35em;
+   object-fit: cover;
  }
 
  .footer {
@@ -64,4 +64,8 @@ p {
 
 .fab {
   font-size: 1.3em;
+}
+
+.leftPic {
+  object-fit: cover;
 }
