@@ -7,6 +7,10 @@
   color: rgb(126, 126, 126);
   background-color: rgb(243, 243, 243);
  }
+
+p {
+  font-size: 13px;
+}
  
 #logo {
   width: 100%;
@@ -17,6 +21,7 @@
  
  .row {
     text-align: center;
+    padding-left: 5%;
  }
  
  .col-lg-5 {
@@ -43,7 +48,7 @@
  }
 
  img {
-   margin-top: 1em;
+   margin-top: .35em;
  }
 
  .footer {
@@ -51,10 +56,6 @@
   font-size: .5em;
   margin-top: 5em;
   margin-bottom: 1em;
-}
-
-.row {
-  padding-left: 5%;
 }
 
 .fas {
