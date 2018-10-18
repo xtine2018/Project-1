@@ -56,4 +56,10 @@ a:hover {
 .row {
     padding-left: 5%;
 }
+.fas {
+    font-size: 1.3em;
+}
 
+.fab {
+    font-size: 1.3em;
+}
