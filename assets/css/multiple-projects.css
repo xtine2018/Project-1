@@ -43,13 +43,10 @@ p {
     color: rgb(255, 97, 0);
  }
 
- .thumbnails {
-   margin: 2em 0em 0em 0em;
- }
-
- img {
-   object-fit: cover;
- }
+ img {    
+  object-fit: cover;    
+  margin-bottom: .4em;
+}
 
  .footer {
   text-align: center;
