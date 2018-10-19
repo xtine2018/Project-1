@@ -45,9 +45,6 @@ img {
     margin-bottom: 1em;
 }
 
-.row {
-    position: relative;
-}
 
 img:hover{
     opacity: .5;
