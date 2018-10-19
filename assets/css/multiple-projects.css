@@ -65,3 +65,6 @@ p {
 h3 {
   text-align: center;
 }
+.col-lg-5 {
+  text-align: justify;
+}
