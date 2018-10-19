@@ -66,6 +66,7 @@ a:hover {
     font-size: 1.3em;
 }
 
+
 .blog .carousel-indicators {
 	left: 0;
 	top: auto;
@@ -84,6 +85,7 @@ a:hover {
 .blog .carousel-indicators .active {
 background: #707070;
 }
+
 @media only screen and (max-width: 995px) {
     .col-lg-2 {
         width: 100%;
@@ -100,4 +102,5 @@ background: #707070;
     img {
         margin-right: -4em;
     }
+
 }
