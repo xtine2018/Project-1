@@ -69,6 +69,7 @@ p {
     /* text-align: right; */
     display: inline;
     position: relative;
+    font-size: .8em;
 }
 
 h4 {
