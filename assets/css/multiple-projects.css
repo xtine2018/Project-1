@@ -20,14 +20,9 @@ p {
 }
  
  .row {
-    text-align: center;
     padding-left: 5%;
  }
- 
- .col-lg-10 {
-    text-align: justify;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
- }
+
  .sidenav {
    text-align: center;
    padding-top: 50%;
@@ -65,4 +60,8 @@ p {
 
 .leftPic {
   object-fit: cover;
+}
+
+h3 {
+  text-align: center;
 }
