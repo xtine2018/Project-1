@@ -59,7 +59,7 @@ $(document).ready(function () {
         var adTitle = $('<h4>');
         adTitle.html(data[i].title);
         var adDescription = $('<p>');
-        adDescription.html(data[i].description + "<div> <br><<br> </div>");
+        adDescription.html(data[i].description + "<div> <br><br> </div>");
 
         adThumbnail = $('<img>');
         adThumbnail.attr("src", data[i].thumbnail);
