@@ -32,7 +32,7 @@ $(document).ready(function () {
             var dwellDesc =$('<div>');
             dwellDesc.addClass('col-lg-4');
             var dwellTitle = $('<h4>');
-            dwellTitle.html(data[i].title + '<br><br>');
+            dwellTitle.html(data[i].title.toUpperCase() + '<br><br>');
             var dwellDescription = $('<p>');
             dwellDescription.html(data[i].description);
             dwellTitle.append(dwellDescription);
@@ -99,7 +99,7 @@ $(document).ready(function () {
         var adDesc =$('<div>');
         adDesc.addClass('col-lg-4');
         var adTitle = $('<h4>');
-        adTitle.html(data[i].title + '<br><br>');
+        adTitle.html(data[i].title.toUpperCase() + '<br><br>');
         var adDescription = $('<p>');
         adDescription.html(data[i].description);
         adTitle.append(adDescription);
