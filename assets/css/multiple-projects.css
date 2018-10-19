@@ -10,6 +10,7 @@
 
 p {
   font-size: 1em;
+  text-align: justify;
 }
  
 #logo {
@@ -19,9 +20,14 @@ p {
   margin-bottom: 5em;
 }
 
- .sidenav {
+ .col-lg-1 {
    text-align: center;
-   padding-top: 50%;
+   position: absolute;
+   margin: auto;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   height: 200px;
 }
  
  a, a:link, a:visited, a:active {
@@ -57,7 +63,8 @@ p {
 h3 {
   text-align: center;
 }
-.col-lg-4 {
-  text-align: justify;
+.thumbnails {
+  text-align: center;
 }
+
 

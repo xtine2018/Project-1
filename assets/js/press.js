@@ -21,8 +21,8 @@ $(document).ready(function () {
             dwellDescription.html(data[i].description + "<div> <br><br> </div>");
             dwellThumbnail = $('<img>');
             dwellThumbnail.attr("src", data[i].thumbnail);
-            dwellThumbnail.attr("width","150em");
-            dwellThumbnail.attr("height","350em");
+            // dwellThumbnail.attr("width","150em");
+            // dwellThumbnail.attr("height","350em");
             imgLink = $('<a>');
             imgLink.attr("href", data[i].link)
             imgLink.html(dwellThumbnail);
@@ -63,8 +63,8 @@ $(document).ready(function () {
 
         adThumbnail = $('<img>');
         adThumbnail.attr("src", data[i].thumbnail);
-        adThumbnail.attr("width","150em");
-        adThumbnail.attr("height","350em");
+        // adThumbnail.attr("width");
+        // adThumbnail.attr("height");
         imgLink = $('<a>');
         imgLink.attr("href", data[i].link);
         imgLink.attr("target", "target=_blank");

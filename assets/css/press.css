@@ -19,10 +19,15 @@ p {
     font-size: 1em;
 }
 
-.sidenav {
+.col-lg-1 {
     text-align: center;
-    padding-top: 50%;
-  }
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 200px;
+ }
 
 a, a:link, a:visited, a:active {
     text-decoration: none;
@@ -50,11 +55,6 @@ img:hover{
     margin-bottom: 1em;
 }
 
-.row {
-    padding-left: 5%;
-    width: 100%;
-    padding: 1%;
-}
 
 .fas {
     font-size: 1.3em;
@@ -66,8 +66,4 @@ img:hover{
 
 h4 {
     text-align: left;
-}
-
-.row1 {
-    position: inline;
 }
