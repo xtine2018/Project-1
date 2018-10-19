@@ -52,6 +52,8 @@ img:hover{
 
 .row {
     padding-left: 5%;
+    width: 100%;
+    padding: 1%;
 }
 
 .fas {
