@@ -7,7 +7,7 @@ $(document).ready(function () {
         data: {
             rss_url: 'https://www.dwell.com/@dwell/rss',
             api_key: '6w6rwsetffvgmkykhysltd4yw3keej3hllk6b6gp', // put your api key here
-            count: 1
+            count: 3
         }
     }).done(function (response) {
         var data = response.items;
@@ -18,9 +18,11 @@ $(document).ready(function () {
             var dwellTitle = $('<h4>');
             dwellTitle.html(data[i].title);
             var dwellDescription = $('<p>');
-            dwellDescription.html(data[i].description);
+            dwellDescription.html(data[i].description + "<div> <br><br> </div>");
             dwellThumbnail = $('<img>');
             dwellThumbnail.attr("src", data[i].thumbnail);
+            // dwellThumbnail.attr("width","150em");
+            // dwellThumbnail.attr("height","350em");
             imgLink = $('<a>');
             imgLink.attr("href", data[i].link)
             imgLink.html(dwellThumbnail);
@@ -46,7 +48,7 @@ $(document).ready(function () {
           data: {
               rss_url: 'https://www.architecturaldigest.com/feed/rss',
               api_key: '6w6rwsetffvgmkykhysltd4yw3keej3hllk6b6gp', // put your api key here
-              count: 1
+              count: 3
           }
        }).done(function (response) {
     //    console.log(response);
@@ -57,9 +59,12 @@ $(document).ready(function () {
         var adTitle = $('<h4>');
         adTitle.html(data[i].title);
         var adDescription = $('<p>');
-        adDescription.html(data[i].description);
+        adDescription.html(data[i].description + "<div> <br><br> </div>");
+
         adThumbnail = $('<img>');
         adThumbnail.attr("src", data[i].thumbnail);
+        // adThumbnail.attr("width");
+        // adThumbnail.attr("height");
         imgLink = $('<a>');
         imgLink.attr("href", data[i].link);
         imgLink.attr("target", "target=_blank");

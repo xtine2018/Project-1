@@ -7,6 +7,11 @@
   color: rgb(126, 126, 126);
   background-color: rgb(243, 243, 243);
  }
+
+p {
+  font-size: 1em;
+  text-align: justify;
+}
  
 #logo {
   width: 100%;
@@ -14,18 +19,15 @@
   margin-top: .5em;
   margin-bottom: 5em;
 }
- 
- .row {
-    text-align: center;
- }
- 
- .col-lg-5 {
-    text-align: justify;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
- }
- .sidenav {
+
+ .col-lg-1 {
    text-align: center;
-   padding-top: 50%;
+   position: absolute;
+   margin: auto;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   height: 200px;
 }
  
  a, a:link, a:visited, a:active {
@@ -38,9 +40,10 @@
     color: rgb(255, 97, 0);
  }
 
- .thumbnails {
-   padding-top: 3em;
- }
+ img {    
+  object-fit: cover;    
+  margin-bottom: .4em;
+}
 
  .footer {
   text-align: center;
@@ -49,6 +52,24 @@
   margin-bottom: 1em;
 }
 
-.row {
-  padding-left: 5%;
+.fas {
+  font-size: 1.3em;
 }
+
+.fab {
+  font-size: 1.3em;
+}
+
+h3 {
+  text-align: center;
+}
+.thumbnails {
+  text-align: center;
+}
+
+.arrows {
+  font-size: 3em;
+  text-align: center;
+}
+
+

@@ -15,15 +15,19 @@ body {
     margin-left: 0em;
 }
 
-.col-lg-5 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+p {
     font-size: 1em;
 }
-.sidenav {
+
+.col-lg-1 {
     text-align: center;
-    padding-top: 50%;
-  }
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 200px;
+ }
 
 a, a:link, a:visited, a:active {
     text-decoration: none;
@@ -36,7 +40,7 @@ a:hover {
 }
 
 img {
-    width: 35em;
+    width: 50em;
     margin-bottom: 1em;
 }
 
@@ -51,22 +55,15 @@ img:hover{
     margin-bottom: 1em;
 }
 
-.row {
-    padding-left: 5%;
+
+.fas {
+    font-size: 1.3em;
 }
 
-#latimes {
-    height: auto;
+.fab {
+    font-size: 1.3em;
 }
 
-#dwellImg {
-    font-size: 0.01em;
-}
-
-#archDig {
-    font-size: 1em;
-}
-
-#hgtv {
-    font-size: 0.1em;
+h4 {
+    text-align: left;
 }

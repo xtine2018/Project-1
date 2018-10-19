@@ -1,4 +1,22 @@
-/* dsfafadfsafsaf */
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background:  rgb(255, 97, 0);
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
 
  @font-face {
     font-family: "BebasNeue";
@@ -15,18 +33,15 @@ body {
     margin-top: .5em;
     margin-bottom: 5em;
 }
-
-.col {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
-    padding-left: 1em;
+.col-lg-1 {
     text-align: center;
-}
-.sidenav {
-    float: right;
-   text-align: center;
-   padding-top: 50%;
-  }
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 200px;
+ }
 
 a, a:link, a:visited, a:active {
    text-decoration: none;
@@ -45,25 +60,40 @@ a:hover {
     padding: 1%;
 }
 
-
 .footer {
     text-align: center;
     font-size: .5em;
-    margin-top: .5em;
+    margin-top: 5em;
     margin-bottom: 1em;
 }
-<<<<<<< HEAD
 
-=======
-.row {
-    padding-left: 5%;
-<<<<<<< HEAD
+.fas {
+    font-size: 1.3em;
 }
-<<<<<<< HEAD
->>>>>>> master
-=======
-=======
+
+.fab {
+    font-size: 1.3em;
 }
->>>>>>> 7ded3bd8e1a450b9a1409c53068a02e9f5e5797c
->>>>>>> 58bdf2211f3466e04d33605d25c2face3a21d288
->>>>>>> d8c725be24c2afc52ae7ffb9dec3d8e022c4f5cf
+
+@media only screen and (max-width: 995px) {
+    .col-lg-10 {
+        width: 100%;
+        margin-left: -2.5em;
+    }
+    
+    #team {
+        margin-right: -4em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .col-lg-10 {
+        width: 100%;
+        margin-left: -1em;
+    }
+
+    #team {
+        margin-right: -4em;
+    }
+}
+

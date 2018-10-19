@@ -7,7 +7,7 @@ body {
     background-color: rgb(243, 243, 243);
 }
 
-.col-lg-10 {
+.col-lg-11 {
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: url('../images/team/marco-bw.png');
@@ -31,10 +31,15 @@ h2 {
     color: rgb(104, 104, 104);
 }
 
-.sidenav {
- text-align: center;
- padding-top: 50%;
-}
+.col-lg-1 {
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 200px;
+ }
 
 a, a:link, a:visited, a:active {
     text-decoration: none;
@@ -51,10 +56,30 @@ a:hover {
     font-size: .5em;
     margin-top: 5em;
     margin-bottom: 1em;
-<<<<<<< HEAD
 }
 
-
-=======
+.fas {
+    font-size: 1.3em;
 }
->>>>>>> cb86aa07d306198046ed178ac37ba619f9267561
+
+.fab {
+    font-size: 1.3em;
+}
+
+@media only screen and (max-width: 995px) {
+    .col-lg-10 {
+        width: 90%;
+        margin-left: 1.7em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .col-lg-10 {
+        width: 80%;
+        margin-left: 1.7em;
+    }
+
+    img {
+        margin-right: -4em;
+    }
+}
