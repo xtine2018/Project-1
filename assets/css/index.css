@@ -73,3 +73,8 @@ a:hover {
 .fab {
     font-size: 1.3em;
 }
+
+.d-block:hover {
+        opacity: 0.5;
+        filter: alpha(opacity=50); /* For IE8 and earlier */
+}
