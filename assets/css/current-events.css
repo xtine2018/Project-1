@@ -45,6 +45,10 @@ img {
     margin-bottom: 1em;
 }
 
+.row {
+    position: relative;
+}
+
 img:hover{
     opacity: .5;
 }
@@ -56,28 +60,16 @@ img:hover{
     margin-bottom: 1em;
 }
 
-#latimes {
-    height: auto;
-}
-
-#dwellImg {
-    font-size: 0.01em;
-}
-
-#archDig {
-    font-size: 1em;
-}
-
-#hgtv {
-    font-size: 0.1em;
-}
-
 .fas {
     font-size: 1.3em;
 }
 
 .fab {
     font-size: 1.3em;
+}
+
+p {
+    display: absolute;
 }
 
 @media only screen and (max-width: 1300px) {
