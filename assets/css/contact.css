@@ -19,11 +19,15 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.sidenav {
-text-align: center;
-padding-top: 50%;
-
-}
+.col-lg-1 {
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 200px;
+ }
 
 a, a:link, a:visited, a:active {
     text-decoration: none;

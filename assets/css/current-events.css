@@ -20,10 +20,15 @@ body {
     text-align: center;
     font-size: 1em;
 }
-.sidenav {
+.col-lg-1 {
     text-align: center;
-    padding-top: 50%;
-  }
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 200px;
+ }
 
 a, a:link, a:visited, a:active {
     text-decoration: none;
@@ -36,7 +41,7 @@ a:hover {
 }
 
 img {
-    width: 30em;
+    width: 50em;
     margin-bottom: 1em;
 }
 
@@ -49,10 +54,6 @@ img:hover{
     font-size: .5em;
     margin-top: 5em;
     margin-bottom: 1em;
-}
-
-.row {
-    padding-left: 5%;
 }
 
 #latimes {
