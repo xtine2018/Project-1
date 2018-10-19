@@ -14,6 +14,7 @@ body {
     margin-bottom: 5em;
     margin-left: 0em;
 }
+
 .col-lg-5 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -71,4 +72,46 @@ p {
 
 .fab {
     font-size: 1.3em;
+}
+
+@media only screen and (max-width: 1000px) {
+    .col-lg-5 {
+        width: 100%;
+        margin-left: 1.7em;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+            padding-bottom: 1em;
+        margin-left: -1.7em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .col-lg-5 {
+        width: 100%;
+        margin-left: 1.7em;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        padding-bottom: 1em;
+        margin-left: -1.7em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .col-lg-5 {
+        width: 100%;
+        margin-left: 1.7em;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        padding-bottom: 1em;
+        margin-left: -1.2em;
+    }
 }

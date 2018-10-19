@@ -73,3 +73,25 @@ a:hover {
 .fab {
     font-size: 1.3em;
 }
+
+@media only screen and (max-width: 995px) {
+    .col-lg-10 {
+        width: 100%;
+        margin-left: -2.5em;
+    }
+    
+    #team {
+        margin-right: -4em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .col-lg-10 {
+        width: 100%;
+        margin-left: -1em;
+    }
+
+    #team {
+        margin-right: -4em;
+    }
+}
