@@ -70,6 +70,7 @@ p {
 .row {
     padding-left: 5%;
 }
+
 .fas {
     font-size: 1.3em;
 }
@@ -91,6 +92,7 @@ p {
         margin-left: -1.7em;
     }
 }
+
 
 @media only screen and (max-width: 600px) {
     .col-lg-5 {
