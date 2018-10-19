@@ -32,7 +32,7 @@ $(document).ready(function () {
             titleLink.attr("target", "target=_blank")
             titleLink.html(dwellTitle);
             dwellDiv.append(imgLink, titleLink, dwellDescription);
-            $('.col-lg-10').append(dwellDiv);
+            $('.dwell').append(dwellDiv);
 
         }
         //use array 
@@ -74,7 +74,7 @@ $(document).ready(function () {
         titleLink.attr("target", "target=_blank")
         titleLink.html(adTitle);
         adDiv.append(imgLink, titleLink, adDescription);
-        $('.col-lg-10').append(adDiv);
+        $('.ad').append(adDiv);
 
     }
        });
