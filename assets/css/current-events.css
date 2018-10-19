@@ -15,9 +15,8 @@ body {
     margin-left: 0em;
 }
 
-.col-lg-5 {
+.col-lg-11 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
     font-size: 1em;
 }
 .col-lg-1 {
@@ -43,6 +42,7 @@ a:hover {
 img {
     width: 50em;
     margin-bottom: 1em;
+    align-content: left;
 }
 
 
@@ -66,8 +66,17 @@ img:hover{
 }
 
 p {
-    display: absolute;
+    /* text-align: right; */
+    display: inline;
+    position: relative;
 }
+
+h4 {
+    /* text-align: right; */
+    display: inline;
+    position: absolute;
+}
+
 
 @media only screen and (max-width: 1300px) {
     .col-lg-5 {
