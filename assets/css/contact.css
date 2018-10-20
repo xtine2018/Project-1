@@ -15,10 +15,6 @@ body {
     margin-left: 0em;
 }
 
-.col-lg-5 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 .col-lg-1 {
     text-align: center;
     position: absolute;
@@ -67,16 +63,16 @@ p {
     margin-bottom: 1em;
 }
 
-.row {
-    padding-left: 5%;
-}
-
 .fas {
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 .fab {
-    font-size: 1.3em;
+    font-size: 1em;
+}
+
+.img-contact {
+    text-align: center;
 }
 
 @media only screen and (max-width: 1000px) {
