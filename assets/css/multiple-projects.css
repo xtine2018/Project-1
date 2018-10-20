@@ -65,11 +65,16 @@ h3 {
 }
 .thumbnails {
   text-align: center;
+  column-count: 4;
 }
 
 .arrows {
   font-size: 3em;
   text-align: center;
+}
+
+.col-lg-6 {
+  width: 100%;
 }
 
 
