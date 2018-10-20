@@ -79,3 +79,9 @@ a:hover {
         opacity: 0.5;
         filter: alpha(opacity=50); /* For IE8 and earlier */
 }
+
+@media only screen and (max-width: 600px) {
+    .sidenav {
+        position: relative;
+    }
+}
