@@ -66,19 +66,7 @@ a:hover {
     font-size: 1em;
 }
 
-@media only screen and (max-width: 995px) {
-    .col-lg-10 {
-        width: 90%;
-        margin-left: 1.7em;
-    }
-}
-
 @media only screen and (max-width: 600px) {
-    .col-lg-10 {
-        width: 80%;
-        margin-left: 1.7em;
-    }
-
     img {
         margin-right: -4em;
     }
