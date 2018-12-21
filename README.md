@@ -2,50 +2,11 @@
 
 <a href="https://imgflip.com/gif/2l0663"><img src="https://i.imgflip.com/2l0663.gif" title="made at imgflip.com"/></a>
 
-Coding Requirements:
+For Project 1, my group and I were to adhere to the following requirements:
+- Use 2 APIs
+- Use AJAX to pull data
+- Utilize 1 new library or technology that was not discussed in class
+- User input validation
+- Polished frontend/UI
 
-Must use at least two APIs
-
-Must use AJAX to pull data
-
-Must utilize at least one new library or technology that we haven’t discussed
-
-Must have a polished frontend / UI 
-
-Must meet good quality coding standards (indentation, scoping, naming)
-
-Must NOT use alerts, confirms, or prompts (look into modals!)
-
-Must have some sort of repeating element (table, columns, etc)
-
-Must use Bootstrap or Alternative CSS Framework
-
-Must be Deployed (Github Pages)
-
-Must have User Input Validation 
-
-
-Presentation Requirements:
-
-You will also be responsible for preparing a 10 minute presentation.
-
-This will be a formal presentation. 
-
-One in which you explain in detail:
-
-Your overall application’s concept
-
-The motivation for its development
-
-Your design process
-
-The technologies you used (and briefly how they work)
-
-A demonstration of its functionality
-
-Directions for future development
-
-Treat the presentation seriously! 
-
-Talking intelligently about tech > doing tech sometimes. 
-
+Our client, Marco Di Maccio, a celebrity architectural wanted a clean, modern and minimalistic approach when creating his profile website.  He provided two inspiration pages, Dwell and Architectural Digest, so we utilized the sites’ APIs to display relevant content to the ‘Inspirations’ page.  
